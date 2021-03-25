@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 5: March 25, 2021
+
+**Today's Progress**: Learned about the loops in python, and applied the concept to build a random password generator.
+
+**Thoughts**: The most important thing to keep in mind is the indentation when writing the loops or if/else. Unlike, other programming languages like C++, indentation matters in Python. Today was a little more challenging and it took a while to program the harder part of the challenge.
+
+**Link(s) to work**: [Password Generator](https://replit.com/@HarshitSainiii/password-generator)
+
 ### Day 4: March 24, 2021
 
 **Today's Progress**: An introduction to the List data structure in Python. Also, learned about modules by importing the 'Random' module and using it to generate psuedo-random numbers.
@@ -55,9 +63,10 @@
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp.
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent. -->
+**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
 
 **Link(s) to work**
 
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+-->
