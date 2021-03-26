@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 6: March 26, 2021
+
+**Today's Progress**: An introduction to defining user functions in Python and a new way of writing loops, while loops. Played around a website called, _Reeborg's World_.
+
+**Thoughts**: The final challenge today was a little harder than the previous challenges. Although, I am already familiar with the concepts, I am finding it really helpful to solve the challenges to build logic.
+
+**Link(s) to work**: [Reeborg's World](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json)
+
 ### Day 5: March 25, 2021
 
 **Today's Progress**: Learned about the loops in python, and applied the concept to build a random password generator.
