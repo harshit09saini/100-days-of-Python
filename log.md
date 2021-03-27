@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 7: March 27, 2021
+
+**Today's Progress**: Spent the day building a game by applying what I learned in the past week.
+
+**Thoughts**: The problem seemed complex at the start, but as it was broken down into chunks, it was easier to manage.
+
+**Link(s) to work**: [Hangman](https://replit.com/@HarshitSainiii/Day-7-Hangman)
+
 ### Day 6: March 26, 2021
 
 **Today's Progress**: An introduction to defining user functions in Python and a new way of writing loops, while loops. Played around a website called, _Reeborg's World_.
