@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 8: March 28, 2021
+
+**Today's Progress**: Learned about passing parameters into functions and created a ceasar cipher to encode and decode a message.
+
+**Thoughts**: I did not have much motivation to finish the exercises today. Pulled myself to finish the day regardless.
+
+**Link(s) to work**: [Caesar Cipher](https://replit.com/@HarshitSainiii/caesar-cipher)
+
 ### Day 7: March 27, 2021
 
 **Today's Progress**: Spent the day building a game by applying what I learned in the past week.
