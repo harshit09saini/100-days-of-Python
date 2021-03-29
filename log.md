@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 9: March 29, 2021
+
+**Today's Progress**: An introduction to dictionaries in Python.
+
+**Thoughts**: Same as yesterday. I did not have much motivation to finish the exercises today. Pulled myself to finish the day regardless. I am starting to lose motivation to continue. I'm gonna refresh my mind and stay committed to the challenge.
+
+**Link(s) to work**: [Silent Auction](https://replit.com/@HarshitSainiii/blind-auction)
+
 ### Day 8: March 28, 2021
 
 **Today's Progress**: Learned about passing parameters into functions and created a ceasar cipher to encode and decode a message.
