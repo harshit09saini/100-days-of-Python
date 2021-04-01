@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 11: April 01, 2021
+
+**Today's Progress**: Capstone BlackJack Project
+
+**Thoughts**:
+
+**Link(s) to work**: [BlackJack](https://replit.com/@HarshitSainiii/blackjack-start)
+
+### Day 10: March 30, 2021
+
+**Today's Progress**: Functions with output and return statement
+
+**Thoughts**:
+
+**Link(s) to work**: [Calculator](https://replit.com/@HarshitSainiii/calculator-start)
+
 ### Day 9: March 29, 2021
 
 **Today's Progress**: An introduction to dictionaries in Python.
