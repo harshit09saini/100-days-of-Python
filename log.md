@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 15: April 06, 2021
+
+**Today's Progress**: Switched to the local environment for Python using Pycharm. Worked on a coffee machine project.
+
+**Thoughts**: I am running two days behind schedule. I need to catch up.
+
+### Day 14: April 04, 2021
+
+**Today's Progress**: Worked on a higher lower game project
+
+**Thoughts**: This was the last day of the beginner level. We will be switching onto the intermediate level now. Things are starting to get a little more challenging!
+
+### Day 13: April 03, 2021
+
+**Today's Progress**: How to debug code
+
+**Thoughts**:
+
+### Day 12: April 02, 2021
+
+**Today's Progress**: Learned about global and local scope. Built a number guessing game.
+
+**Thoughts**:
+
 ### Day 11: April 01, 2021
 
 **Today's Progress**: Capstone BlackJack Project
