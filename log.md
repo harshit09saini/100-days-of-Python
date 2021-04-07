@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 16 & 17: April 07, 2021
+
+**Today's Progress**: An introduction to Object Oriented Programming in Python. Refactored the coffee machine game from yesterday to use OOP concepts. Additionally built a quiz game entirely applying the OOP concepts.
+
+**Thoughts**: OOP is a little tricky. It will take a while to get familiar with the concepts. I finally caught up with my schedule from the day I started. I will try to minimize the days I skip.
+
 ### Day 15: April 06, 2021
 
 **Today's Progress**: Switched to the local environment for Python using Pycharm. Worked on a coffee machine project.
@@ -11,6 +17,8 @@
 **Today's Progress**: Worked on a higher lower game project
 
 **Thoughts**: This was the last day of the beginner level. We will be switching onto the intermediate level now. Things are starting to get a little more challenging!
+
+**Link(s) to work**: [Higher Lower](https://replit.com/@HarshitSainiii/higher-lower)
 
 ### Day 13: April 03, 2021
 
