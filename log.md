@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 18 & 19: April 08, 2021
+
+**Today's Progress**: Working with the Turtle graphics library in python to build several graphics, and finally learning about higher order functions and instances to create a Turtle Race game.
+
+**Thoughts**: It was really interesting and fun to play around with the turtle library. I created a fractal tree as an additional challenge. I finally caught up with my schedule. Back on track from tomorrow!
+
 ### Day 16 & 17: April 07, 2021
 
 **Today's Progress**: An introduction to Object Oriented Programming in Python. Refactored the coffee machine game from yesterday to use OOP concepts. Additionally built a quiz game entirely applying the OOP concepts.

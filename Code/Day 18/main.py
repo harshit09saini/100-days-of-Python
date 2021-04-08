@@ -33,12 +33,14 @@ extracted_colors = [(132, 166, 205), (221, 148, 106), (32, 42, 61), (199, 135, 1
 
 
 def hirst():
+    screen.bgcolor("mint cream")
+
     t.setworldcoordinates(-1, -1, 10, 10)
     turtle.hideturtle()
 
     def draw_row():
         for i in range(10):
-            turtle.dot(20, random.choice(extracted_colors))
+            turtle.dot(15, random.choice(extracted_colors))
             turtle.penup()
             turtle.forward(1)
             turtle.pendown()
@@ -50,7 +52,42 @@ def hirst():
         draw_row()
 
 
-hirst()
+# hirst()
+
+###########################################################################
+
+def fractal_tree():
+    screen.bgcolor("light blue")
+    turtle.color("dark green")
+    turtle.speed("fastest")
+    turtle.pensize(2)
+
+    turtle.penup()
+    turtle.setpos(0, -300)
+    turtle.pendown()
+
+    length = 200
+    turtle.setheading(90)
+
+    def draw(branch_len):
+        angle = 30
+        if branch_len < 4:
+            return
+        else:
+            turtle.pensize(round(branch_len * 0.05))
+            turtle.forward(branch_len)
+            turtle.right(angle)
+            draw(branch_len * 0.67)
+            turtle.left(angle*2)
+            draw(branch_len * 0.67)
+            turtle.right(angle)
+            turtle.backward(branch_len)
+            turtle.hideturtle()
+
+    draw(length)
+
+
+fractal_tree()
 
 
 ###########################################################################
