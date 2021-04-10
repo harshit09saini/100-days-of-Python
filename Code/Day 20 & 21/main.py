@@ -23,18 +23,23 @@ snake = Snake("maroon")
 # Create the food instance
 food = Food()
 
+# Onscreen Key listeners to move the snake
 screen.listen()
 screen.onkey(snake.move_left, "Left")
 screen.onkey(snake.move_right, "Right")
 screen.onkey(snake.move_up, "Up")
 screen.onkey(snake.move_down, "Down")
 
+# Create the scoreboard instance
 scoreboard = Scoreboard()
 
+# Determines the state of the game
 is_game_on = True
+
 while is_game_on:
     screen.update()
     time.sleep(0.1)
+
     snake.move()
 
     # Detect Collision with Food
@@ -54,5 +59,9 @@ while is_game_on:
         if snake.head.distance(segment) < 10:
             scoreboard.game_over()
             is_game_on = False
+
+    # Increase the difficulty by making the food turtle move randomly
+    if scoreboard.score > 10:
+        food.walk()
 
 screen.exitonclick()
