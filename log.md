@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 20 & 21: April 09/10, 2021
+
+**Today's Progress**: Worked on building the classic snake game from scratch using the Turtle library.
+
+**Thoughts**: That was an exciting project to build. Seeing the code work in action is really satisfying.
+
 ### Day 18 & 19: April 08, 2021
 
 **Today's Progress**: Working with the Turtle graphics library in python to build several graphics, and finally learning about higher order functions and instances to create a Turtle Race game.
