@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 22: April 11, 2021
+
+**Today's Progress**: Spent the day coding the arcade game of pong
+
+**Thoughts**: That was an exciting project to build. The logic was fairly easy to implement without getting much help from the videos.
+
 ### Day 20 & 21: April 09/10, 2021
 
 **Today's Progress**: Worked on building the classic snake game from scratch using the Turtle library.
