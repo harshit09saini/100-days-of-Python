@@ -22,18 +22,15 @@ def start_screen():
     start.hideturtle()
     start.color("dark slate blue")
     start.write("Welcome to Pong!", move=False, align="center", font=("Courier", 50, "bold"))
-    # start_game = screen.textinput("Do you want to play Pong? ", "y/n ")
+    start.goto(0, -30)
+    start.write("A: 1 Player\tB: 2 Player", move=False, align="center", font=("Courier", 20, "bold"))
+    game_mode = screen.textinput("1 Player or 2 Player? ", "A/B").lower()
     time.sleep(3)
     is_game_on = True
     start.clear()
-    # if start_game == "y":
-    #     is_game_on = True
-    #     start.clear()
-    # else:
-    #     screen.bye()
+    return game_mode
 
-
-start_screen()
+game_mode = start_screen()
 
 screen.tracer(0)
 
@@ -46,8 +43,10 @@ screen.listen()
 
 screen.onkeypress(left_paddle.up, "Up")
 screen.onkeypress(left_paddle.down, "Down")
-screen.onkeypress(right_paddle.up, "w")
-screen.onkeypress(right_paddle.down, "s")
+
+if game_mode == "b":
+    screen.onkeypress(right_paddle.up, "w")
+    screen.onkeypress(right_paddle.down, "s")
 
 scoreboard = Scoreboard()
 
@@ -78,5 +77,12 @@ while is_game_on:
         ball.reset_game()
         scoreboard.increase_score_right()
         ball.xmove = 10
+
+    # AI Player
+    if game_mode == "a":
+        if right_paddle.ycor() < ball.ycor():
+            right_paddle.up()
+        if right_paddle.ycor() > ball.ycor():
+            right_paddle.down()
 
 screen.exitonclick()
