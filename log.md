@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 23: April 12, 2021
+
+**Today's Progress**: Worked on the second capstone project - Turtle Crossing Game.
+
+**Thoughts**: After working on the last two projects, this final game project was easy to build without any help from the videos or hints.
+
 ### Day 22: April 11, 2021
 
 **Today's Progress**: Spent the day coding the arcade game of pong
