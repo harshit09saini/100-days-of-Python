@@ -36,6 +36,13 @@ class Snake:
     def increase_length(self):
         self.create_segment(self.snake_segments[-1].position())
 
+    def reset(self):
+        for segment in self.snake_segments:
+            segment.goto(2000, 2000)
+        self.snake_segments.clear()
+        self.create_snake()
+        self.head = self.snake_segments[0]
+
     def move(self):
         for segment in range(len(self.snake_segments) - 1, 0, -1):
             new_coord = self.snake_segments[segment - 1].pos()
