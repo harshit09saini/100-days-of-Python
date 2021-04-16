@@ -41,11 +41,14 @@ while len(guessed) < 36:
 
     # Exit condition
     if user_answer == "Exit":
-
         # Check all the guessed states and append missing states to the list
-        for state in all_states:
-            if state not in guessed:
-                missed.append(state)
+        # for state in all_states:
+        #     if state not in guessed:
+        #         missed.append(state)
+
+        # Make the above code concise using list comprehension
+        missed = [state for state in all_states if state not in guessed]
+        print(missed)
         break
 
     # If user guess exists in the state list from csv
