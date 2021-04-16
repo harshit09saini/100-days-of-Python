@@ -26,9 +26,6 @@ score.hideturtle()
 score.penup()
 score.goto(100, 200)
 
-# States Missed
-missed = []
-
 while len(guessed) < 36:
     score.clear()
     score.write(f"{len(guessed)}/36", font=("courier", 24, "bold"))
