@@ -1,4 +1,4 @@
-# I've joined the #100DaysOfCode Challenge
+# #100DaysOfPython 
 
 ## Contents
 
