@@ -1,4 +1,12 @@
 # Introduction to Backend using Flask
 
-for i in range(16, 101):
-    print(f"* [Day {i} -](./Code/Day%20{i})")
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!!!</p>"
+
+if __name__ == "__main__":
+    app.run()
